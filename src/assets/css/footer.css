@@ -1,0 +1,111 @@
+/*footer*/
+
+
+/*smartphone*/
+@media screen and (max-width: 480px){
+    #footer{
+        background: #053D78;
+        width: 100%;
+        height: 264px;
+        
+    }
+    .footerSec{
+        position: relative;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        padding-top: 40px;
+        z-index: 10;
+       
+        
+    }
+    .footerSec .col h2{
+        font-size: 0.4rem;
+    }
+    
+    .footerSec .col{
+        display: flex;
+        flex-direction: column;
+        
+        width: 15%;
+        font-size: 0.4px;
+    }
+    .footerSec .col ul{
+        display: inline;
+    }
+    .footerSec .col ul li{
+        list-style: none;
+        margin-bottom: 2px;
+        font-size: .3rem;
+    }
+    .footerSec .col ul li a{
+        color: #fff;
+        margin: auto;
+        
+    }
+    .logoFooter{
+        position: relative;
+        left: 20px;
+        z-index: 10;
+    
+        width: 100%;
+    }
+    .seguradorasFooter{
+        position: relative;
+        top: 2.5em;
+        opacity: 0.4;
+        
+    }
+    .seguradorasFooter img{
+        width: 100%;
+    }
+    
+}
+
+/*Destop*/
+@media (min-width: 1024px){
+    #footer{
+        background: #053D78;
+        width: 100%;
+        height: 394px;
+    }
+    .footerSec{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 100px;
+        padding-top: 50px;
+    }
+    .footerSec .col h2{
+        font-size: 1.3rem;
+    }
+    
+    .footerSec .col{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .footerSec .col ul{
+        display: inline;
+    }
+    .footerSec .col ul li{
+        list-style: none;
+        margin-bottom: 2px;
+        font-size: .8rem;
+    }
+    .footerSec .col ul li a{
+        color: #fff;
+        margin: auto;
+    }
+    .logoFooter{
+        margin-left: 20px;
+    }
+    .seguradorasFooter{
+        position: relative;
+        top: 5.5em;
+        opacity: 0.4;
+    }    
+}

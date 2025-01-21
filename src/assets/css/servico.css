@@ -1,0 +1,118 @@
+
+/*Mobile*/
+@media screen and (max-width: 480px){
+    /*Servico*/
+#servico{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+#servico h1{
+    color: #0253A9;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.containerServico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.iconServico{
+    width: 105px;
+    height: 105px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconServico img{
+    width: 55px;
+}
+.containerServico p{
+    width: 12rem;
+    text-align: justify;
+    font-size: 10px;
+}
+.containerServico h2{
+    font-size: 15px;
+}
+.containerServico a{
+    font-size: 10px;
+}
+.row1,.row2{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    flex-direction: column;
+}
+}
+
+/*Destop*/
+@media (min-width: 1024px){
+/*Servico*/
+#servico{
+    transform: translateY(120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    margin-bottom: 180px;
+    
+}
+
+#servico h1{
+    
+    color: #0253A9;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.containerServico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.iconServico{
+    width: 205px;
+    height: 205px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconServico img{
+    width: 95px;
+}
+.containerServico p{
+    width: 18rem;
+    text-align: justify;
+}
+.row1,.row2{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+}
