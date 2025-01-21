@@ -14,7 +14,7 @@ function header() {
             <li><Link to="/" >Quem Somos</Link></li>
             <li><Link to="/servico" >Serviços</Link></li>
             <li><Link to="/parceiro" >Parceiros</Link></li>
-            <li><Link to="/" >Eventos</Link></li>
+            <li><Link to="/parceiro" >Eventos</Link></li>
         </ul>
         
         <button>   
